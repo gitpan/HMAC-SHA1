@@ -1,0 +1,23 @@
+
+Introduction
+This module computes an HMAC SHA1 digest as specified by RFC 2104.
+It is believed that HMAC SHA1 is stronger than SHA1.
+
+Installing
+This module requires the SHA module prior to installation.  Then do
+the usual "perl Makefile.PL ; make ; make test ; make install".
+
+Example
+print HMAC::SHA1::hexhash("what do ya want for nothing?", "Jefe"),
+      " should be effcdf6ae5eb2fa2d27416d5f184df9c259a7c79\n";
+
+See Also
+RFC 2104        - HMAC specification.
+RFC 2202        - HMAC test cases.
+FIPS PUB 180-1  - SHA specification.
+
+Cheers,
+Clinton Wong
+clintdw@netcom.com
+September 09, 1998
+

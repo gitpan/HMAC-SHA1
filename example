@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+
+# The test case used here is from RFC 2202.
+
+use HMAC::SHA1;
+
+print HMAC::MD5::hexhash("what do ya want for nothing?", "Jefe"), " should be effcdf6ae5eb2fa2d27416d5f184df9c259a7c79\n";
+
